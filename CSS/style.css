@@ -1,0 +1,330 @@
+
+ 
+ /* navbar */
+ .navbar-scrolled{
+    background-color: #031b4e;
+    color: white;
+  }
+ 
+
+.navbar{
+     /* background: transparent !important; */
+    /* position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    z-index: 3; */
+    padding: 15px 0px;
+    background-color: #000000b1;
+
+}
+.color{
+    color: #000000;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    
+}
+
+.cursor{
+    font-family: 'Borel', cursive;
+    font-size: 40px;
+    color: #c8a97e;
+    
+}
+.nav-item{
+    padding: 0px 10px;
+}
+ .btn{
+    background: #c8a97e !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+}
+ .caption{
+   padding-bottom: 550px;
+}
+.span{
+    color: #c8a97e;
+} 
+ .slider{
+    /* height:750px; */
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+.about1{
+    margin-right:-10px;
+    line-height: 30px;
+}
+ .img1{
+    margin-top: -30px;
+}
+.img2{
+        margin-bottom: -30px;
+}
+.a1{
+    margin-top: 50px;
+}
+    
+.about1 a{
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #c8a97e;
+}
+#number{
+    padding: 50px 0;
+}
+#number span{
+    font-size: 30px;
+    color: #c8a97e;
+    font-weight: bold;
+    
+}
+.s1{
+    padding: 0 50px;
+}
+.s1 i{
+    font-size: 50px;
+}
+
+.menu img{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    margin-top: 19px;
+    border-radius: 50%;
+}
+#about{
+    margin: 50px 0px;
+  
+}
+.about1{
+    justify-content: center;
+    padding: 30px;
+}
+#about img{
+    height: 400px;
+    width: 1500px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    margin: 0px 50px;
+    font-size: 32px;
+    color: #c8a97e;
+}
+.price{
+    padding: 0px 44px;
+}
+.ul{
+    color: #c8a97e;
+}
+#form{
+    background-image: url(../Images/Background/bg_3.jpg);
+    background-size: cover;
+       padding: 50px 0px 00px 50px;
+    margin-top: 60px; 
+}
+
+/* .form1{
+    padding:100px 100px ;
+    margin: 50px;
+    margin-left: 0;
+} */
+
+.form1{
+    height: 52px !important;
+    width: 100% !important;
+    background: #fff !important;
+    color: #000000 !important;
+    font-size: 16px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+   
+    
+}
+ input,select{
+    padding: 10px 0px;
+    margin: 10px 5px;
+    width: 200px;
+}
+.make{
+    color: #c8a97e;
+    margin: 20px 10px;
+    padding: 0 5px;
+    
+}
+.card{
+    border: none;
+}
+
+.customer1{
+    padding: 0 80px 0 80px ;
+}
+.blog1 img{
+    height: 100%;
+}
+.blog1 a{
+    color: black;
+}
+#chef{
+    margin-top: 30px;
+}
+
+#footer{
+    margin-top: 200px;
+    
+}
+
+.foot1{
+    line-height: 35px;
+}
+.foot1 i{
+    padding: 0 10px;
+}
+.btn2{
+    margin-top: 10px;
+    padding: 0 30px;
+    padding-left: 30px;
+}
+#footer p,h5{
+    color: #FFFFFFB3;
+}
+.foot4 button{
+    padding: 10px 40px;
+}
+.form1{
+    display: none;
+}
+
+
+@media only screen and (min-width:992px){
+    #menus{
+       position: absolute;
+       top: 65%;
+       z-index: 5;
+       padding: 0px 30px;
+       background-color: rgba(0, 0, 0, 0.515);
+    }
+    .card1{
+        padding: 50px 170px
+    }
+   .card2{
+    margin: -16px -14px;
+    height: 250px;
+   }
+   
+   .blog1 a{
+    text-decoration: none;
+   }
+   .blog1 i{
+    padding: 0 100px;
+   }
+   .blog1 span{
+    padding: 0 10px;
+    font-size: 20px;
+   }
+   .top{
+    background: transparent !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.188) !important;
+    color: rgba(255, 255, 255, 0.933);
+    font-size: 14px;
+    padding: 0px 200px;
+}
+.navbar{
+     background: transparent !important;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+     padding: 15px 80px;
+
+
+}
+.slider{
+    height: 700px;
+}
+.img1{
+    margin-top: -30px;
+}
+.img2{
+        margin-bottom: -30px;
+}
+.color{
+    color:white;
+}
+}
+.form1{
+    display: block;
+}
+#about img{
+    height: 400px;
+    width: 1500px;
+}
+
+
+@media only screen and (min-width: 768px){
+.col-md-7 {
+   width: 58%;
+   
+}
+.img1{
+    margin-top: -30px;
+}
+.img2{
+        margin-bottom: -30px;
+}
+#about img{
+    height: 300px;
+    width: 400px;
+}
+
+
+
+
+.card-title{
+    padding-right: 10px;
+}
+.card2 .picture{
+    height: 247px;
+    
+}
+.ourchef{
+    text-align: left;
+    padding-top: 20px;
+}
+
+#form{
+    /* padding: 50px 50px 50px 100px; */
+    margin-top: 60px; 
+}
+f1{
+    padding: 22px 150px;
+}
+.place{
+    padding: 25px 110px;
+}
+.make{
+    color: #c8a97e;
+    margin: 20px 10px;
+    margin-left: -63px;
+}
+}
+
+.menu div{
+    padding: 0;
+}
+
+
+
+
